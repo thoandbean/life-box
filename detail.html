@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chi Tiet Sản Phẩm</title>
+    <link href="favicon.png" rel="shortcut icon" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="pulgins/owlcarousel/assets/owl.carousel.css" rel="stylesheet" />
+    <link href="pulgins/owlcarousel/assets/owl.theme.green.css" rel="stylesheet" />
+    <link href="pulgins/easyzoom.css" rel="stylesheet" />
+    <link href="Content/Style.css" rel="stylesheet" />
+
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/jquery-3.0.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="pulgins/owlcarousel/owl.carousel.js"></script>
+    <script src="pulgins/easyzoom.js"></script>
+    <script src="Scripts/Script.js"></script>
+</head>
+<body>
+    <nav id="main-menu" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="images/IconLogo/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/list.html">Làm đẹp / Thời trang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/list.html">Gia dụng ngoài trời</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/list.html" data-toggle="dropdown">
+                            Gia dụng tiện ích
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/list.html"> Mẹ và Bé</a>
+                    </li>
+                    <li class="nav-item icon">
+                        <a class="nav-link " href="/search.html">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item icon">
+                        <a class="nav-link " href="/account.html">
+                            <i class="fa fa-user-circle"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item icon">
+                        <a class="nav-link " href="/cart.html">
+                            <i class="fa fa-cart-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="list">
+        <section id="main-heading">
+            <h1>
+                DANH MỤC SẢN PHẨM
+            </h1>
+        </section>
+
+        <section id="breadcrumb" class="container">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+                    <li class="breadcrumb-item"><a href="#">Làm Đẹp</a></li>
+                    <li class="breadcrumb-item active">Thời Trang</li>
+                </ol>
+            </nav>
+        </section>
+
+        <section id="content" class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="easyzoom easyzoom--adjacent">
+                        <a href="images/ChiTietSanPham/chitiet1.png">
+                            <img id="img-big" class="img-fluid" src="images/ChiTietSanPham/chitiet1.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="owl-carousel owl-theme" id="gallery-carousel">
+                        <div class="item">
+                            <a href="#">
+                                <img class="img-fluid" src="images/ChiTietSanPham/chitiet1.png" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img class="img-fluid" src="images/ChiTietSanPham/chitiet2.png" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img class="img-fluid" src="images/ChiTietSanPham/chitiet3.png" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img class="img-fluid" src="images/ChiTietSanPham/chitiet4.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h1>
+                        Ao Mua Thoi Thuong
+                    </h1>
+                    <span class="text-muted">Còn Hàng</span>
+                    <div class="row">
+                        <div class="col-3">
+                            <strong>Tiêu Đề</strong>
+                            <br />
+                            <select class="w-100 h-50">
+                                <option value="value">M</option>
+                            </select>
+                        </div>
+                        <div class="col-3">
+                            <strong>Số Lượng</strong>
+                            <br />
+                            <input class="w-100 h-50" type="number" min="1" max="99" value="1" />
+                        </div>
+                        <div class="col">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <strong class="fa-2x">199.000đ</strong>
+                        <s>499.000</s>
+                        <a class="btn btn-warning" href="#">Thêm vào giỏ</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab">Mô tả sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab">Video</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel">
+
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung1.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung2.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung3.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung4.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung5.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung6.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung7.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung8.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung9.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung10.png" />
+                        <img class="img-fluid" src="images/ChiTietSanPham/noidung11.png" />
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                    src="https://www.youtube.com/embed/GwCUbhE0TY0"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h4>GIỚI THIỆU LIFEBOX</h4>
+                        <p>Trong cuộc sống hiện đại ngày nay, LifeBox tin rằng chúng ta xứng đáng được sử dụng những sản phẩm chất lượng với mức giá phải chăng. Lifebox đã tìm kiếm từ khắp nơi trên khắp thế giới những sản phẩm tiện lợi và đa năng giúp bạn có thể dành nhiều thời gian hơn cho người thân, bạn bè và các hoạt động quan trọng khác của bạn. Rất mong nhận được sự ủng hộ từ quý khách.</p>
+                        <p>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VIỄN TƯỜNG</p>
+                        <p>
+                            ĐKKD: 0315007369 DO SỞ KH VÀ ĐT TP.HCM CẤP NGÀY 23/04/2018
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <h4>
+                            SHOP
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="#">Thời trang</a>
+                            </li>
+                            <li>
+                                <a href="#">Tiện ích ngoài trời</a>
+                            </li>
+                            <li>
+                                <a href="#">Gia dụng tiện ích</a>
+                            </li>
+                            <li>
+                                <a href="#">Mẹ và Bé</a>
+                            </li>
+                            <li>
+                                <a href="#">Phụ kiệns</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h4>
+                            CSKH
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="#">Chính sách thanh toán</a>
+                            </li>
+                            <li>
+                                <a href="#">Chính sách vận chuyển</a>
+                            </li>
+                            <li>
+                                <a href="#">Chính sách bảo hành</a>
+                            </li>
+                            <li>
+                                <a href="#">Chính sách đối trả</a>
+                            </li>
+                            <li>
+                                <a href="#">Chính sách bảo mật</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4>
+                            SOCIAL
+                        </h4>
+                        <div>
+                            <a class="mr-3" href="#">
+                                <i class="fa fa-facebook fa-2x text-white-50"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram fa-2x fa-2x text-white-50"></i>
+                            </a>
+                        </div>
+                        <div id="fb-root"></div>
+                        <script>
+                            (function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                        <div style="margin-top:20px">
+                            <div class="fb-page"
+                                 data-href="https://www.facebook.com/dhktktbinhduong/"
+                                 data-small-header="false"
+                                 data-adapt-container-width="true"
+                                 data-hide-cover="false"
+                                 data-show-facepile="true">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="bottom-footer">
+            <div class="container">
+                <span class="pull-left" c>
+                    Copyright ⓒ 2018 LifeBox. All Rights Reserved.
+
+                </span>
+                <span class="pull-right">
+                    | Price: VND
+                    <i class="fa fa-angle-down"></i>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </section>
+        <img id="back-top" src="images/IconLogo/back-top.png" />
+    </footer>
+</body>
+</html>
